@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="img/local-logo.png" alt="icone_local" />
+        <p>Agência de Viagens</p>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <form
+            method="post"
+            action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/"
+          >
+            Formulário - Solicite um Orçamento
+            <p>Informe seus dados</p>
+            <fieldset>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required />
+              <label for="nome">E-mail:</label>
+              <input type="email" id="email" name="email" required />
+              <label for="nome">Telefone:</label>
+              <input type="tel" id="telefone" name="telefone" required />
+            </fieldset>
+            <fieldset>
+              <label>Data ida:</label>
+              <input type="date" id="data-ida" name="data-ida" required />
+              <label>Data volta:</label>
+              <input type="date" id="data-volta" name="data-volta" required />
+            </fieldset>
+            <fieldset>
+              <label>Quarto com cama infantil?</label>
+              <input type="radio" />
+              <label for="sim">Sim</label>
+              <input type="radio" />
+              <label for="não">Não</label>
+            </fieldset>
+            <fieldset>
+              <label>Preferências de Hospedagem:</label>
+              <input type="checkbox" />
+              <label for="piscina">Piscina</label>
+              <input type="checkbox" />
+              <label for="wifi">Wi-Fi</label>
+              <input type="checkbox" />
+              <label for="garagem">Garagem</label>
+              <input type="checkbox" />
+              <label for="suite">Suite</label>
+            </fieldset>
+            <button type="submit">Solicitar Orçamento</button>
+          </form>
+        </div>
+        <div class="container">
+          <div class="s1-ofertas"></div>
+          <h3>Ofertas</h3>
+          <h4>Com até <span>50%</span> de desconto</h4>
+          <div class="grid-big">
+            <figcaption>Rio de Janeiro</figcaption>
+            <img src="img/rio.jpg" alt="Rio de Janeiro" />
+          </div>
+          <div class="grid-small">
+            <figcaption>Manaus</figcaption>
+            <img src="img/manaus.jpg" alt="Manaus" />
+            <figcaption>São Paulo</figcaption>
+            <img src="img/saopaulo.jpg" alt="São Paulo" />
+            <figcaption>Rio de Janeiro</figcaption>
+            <img src="img/niteroi.jpg" alt="Rio de Janeiro" />
+            <figcaption>Maranhão</figcaption>
+            <img src="img/maranhao.jpg" alt="Maranhão" />
+          </div>
+        </div>
+        <div class="s1-anuncios"></div>
+      </section>
+      <section>
+        <h2>Explore a Natureza</h2>
+        <h3>Viaje conosco e veja o melhor que a natureza tem a oferecer.</h3>
+        <div>
+          <div>
+            <img
+              src="imagens/lencol.jpg"
+              alt="Lençois Maranhenses - Brasil"
+              title="Lençois Maranhenses - Brasil"
+            />
+            <div>
+              <h3>Lençois Maranhenses, Brasil</h3>
+              <p>Ida e volta a partir de R$79</p>
+            </div>
+          </div>
+          <div>
+            <img
+              src="imagens/goias.jpg"
+              alt="Cachoeira Santa bárbara - GO"
+              title="Cachoeira Santa Bárbara - GO"
+            />
+            <div>
+              <h3>Cachoeira Santa Bárbara, Brasil</h3>
+              <p>Ida e volta por R$139</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <div>
+          <h2>Contato</h2>
+          <div>
+            <img
+              src="imagens/local.png"
+              title="Ícone local"
+              alt="Ícone local"
+            />
+            <span>Rio de Janeiro, RJ</span>
+          </div>
+          <div>
+            <img
+              src="imagens/telefone.png"
+              title="Ícone telefone"
+              alt="Ícone telefone"
+            />
+            <span>Telefone: (21) 9999-9999</span>
+          </div>
+          <div>
+            <img
+              src="imagens/email.png"
+              title="Ícone email"
+              alt="Ícone email"
+            />
+            <span>Email: contato@agencia.com.br</span>
+          </div>
+        </div>
+        <div>
+          <h2>Nossas Redes Sociais</h2>
+          <div>
+            <img
+              src="imagens/fb.png"
+              title="Ícone facebook"
+              alt="Ícone facebook"
+            />
+            <span>/AgenciaDeViagem</span>
+          </div>
+          <div>
+            <img
+              src="imagens/ig.png"
+              title="Ícone instagram"
+              alt="Ícone instagram"
+            />
+            <span>@AgenciaDeViagem</span>
+          </div>
+          <div>
+            <img
+              src="imagens/tt.png"
+              title="Ícone twitter"
+              alt="Ícone twitter"
+            />
+            <span>@AgenciaDeViagem</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
