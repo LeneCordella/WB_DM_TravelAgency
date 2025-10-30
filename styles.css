@@ -248,6 +248,11 @@ figcaption {
 }
 .s1-anuncios {
   max-width: 1024px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto 0 auto;
 }
 
 .s1-anuncios-grid {
@@ -278,6 +283,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  max-width: 1024px;
 }
 
 .footer-content {
@@ -297,18 +303,64 @@ footer img {
 }
 
 @media (max-width: 1100px) {
-  .form-header {
+  header,
+  .topo,
+  .s1-anuncios,
+  .container-secao-1,
+  .container-secao-2,
+  .foote {
     width: 90%;
   }
-  /* .div {
-    display: flex;
-    flex-direction: column;
+
+  @media (max-width: 768px) {
+    .form button {
+      width: 100%;
+    }
+
+    .s1-anuncios-grid {
+      height: 100%;
+      flex-direction: column;
+    }
+
+    .grid-small {
+      width: 100%;
+    }
+
+    .oferta-imagem-destaque,
+    .oferta-quatro-imagens figure {
+      width: 100%;
+      height: 225px;
+      margin: 15px 0 0 0;
+    }
+
+    .s1-anuncios-grid {
+      flex-direction: column;
+    }
+
+    .s1-anuncios-grid first-child {
+      width: 100%;
+      margin: 15px 0 0 0;
+    }
+
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-content {
+      width: 250px;
+    }
   }
 
-  .form {
-    width: 100%;
-    height: 540px;
-  }
+  @media (max-width: 540px) {
+    .formulario-campo-duplo,
+    .radio {
+      flex-direction: column;
+    }
 
-  */
+    .formulario-campo-duplo div,
+    .radio div {
+      width: 100%;
+    }
+  }
 }
