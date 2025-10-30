@@ -362,5 +362,10 @@ footer img {
     .radio div {
       width: 100%;
     }
+
+    .s1-anuncios,
+    .s1-anuncios-grid {
+      align-items: center;
+    }
   }
 }
